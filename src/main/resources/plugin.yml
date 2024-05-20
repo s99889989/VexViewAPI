@@ -1,0 +1,31 @@
+name: VexView
+version: '${version}'
+main: lk.vexview.Main
+api-version: '1.16'
+folia-supported: true
+authors:
+  - LK
+  - lona
+softdepend: [UnrealCore, PlaceholderAPI]
+commands:
+  opengui:
+    description: Open a gui
+    usage: /<command>
+  flowview:
+    description: flowview message
+    usage: /<command>
+  sendhud:
+    description: flowview message
+    usage: /<command>
+  removehud:
+    description: flowview message
+    usage: /<command>
+  vexreload:
+    description: flowview message
+    usage: /<command>
+  vexitem:
+    description: flowview message
+    usage: /<command>
+  vextag:
+    description: flowview message
+    usage: /<command>
